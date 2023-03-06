@@ -187,7 +187,8 @@ class ScriptingOptions(object):
             u'Script110Compat',
             u'Script120Compat',
             u'Script130Compat',
-            u'Script140Compat'],
+            u'Script140Compat',
+            u'Script150Compat'],
         u'TargetDatabaseEngineEdition': [
             u'SqlServerStandardEdition',
             u'SqlServerPersonalEdition',
@@ -237,7 +238,7 @@ class ScriptingOptions(object):
         self.ScriptCreateDrop = u'ScriptCreate'
         self.TargetDatabaseEngineType = u'SingleInstance'
         self.ScriptStatistics = u'ScriptStatsNone'
-        self.ScriptCompatibilityOption = u'Script140Compat'
+        self.ScriptCompatibilityOption = u'Script150Compat'
         self.TargetDatabaseEngineEdition = u'SqlServerStandardEdition'
 
         if parameters:
